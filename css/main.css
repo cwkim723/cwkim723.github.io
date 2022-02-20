@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sam3KRFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Sam3KRFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KNPSKkomi-Regular00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KNPSKkomi-Regular00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SangSangAnt';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/SangSangAnt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bohyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Bohyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretty_Left_handed';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Pretty_Left_handed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UhBeeHYUNJUNG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeHYUNJUNG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+.left-div{
+    
+    font-family: 'GangwonEdu_OTFBoldA';
+    float: left;
+    width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+#intro-div{
+    color: white;
+    text-shadow: -1px 0 yellowgreen, 0 1px yellowgreen, 1px 0 yellowgreen, 0 -1px yellowgreen;
+    display: flex;
+    height: 5%;
+    font-size: xx-large;
+    justify-content: center;
+    align-items:center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+} 
+
+
+#poster-div{
+    display: flex;
+    height: 35%;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 5%;
+} 
+
+.posterImg{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+}
+
+#title-div{
+    color: white;
+    text-shadow: -1px 0 salmon, 0 1px salmon, 1px 0 salmon, 0 -1px salmon;
+    font-weight: 500;
+    font-size: x-large;
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items:center;
+} 
+
+#director-div{
+    color: white;
+    text-shadow: -1px 0 thistle, 0 1px thistle, 1px 0 thistle, 0 -1px thistle;
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items:center;
+} 
+
+#actors-div{
+    color: white;
+    text-shadow: -1px 0 rebeccapurple, 0 1px rebeccapurple, 1px 0 rebeccapurple, 0 -1px rebeccapurple;
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items:center;
+} 
+
+#discription-div{
+    color: white;
+    text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items:center;
+
+    
+} 
+
+
+
+
+
+
+.middle-div{
+    float: left;
+    width:40%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#greeting-div{
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items:center;
+} 
+
+.greeting{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Sam3KRFont';
+    color: tan;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    font-size: xx-large;
+    z-index: 1; 
+}
+
+#clock-div{
+    display: flex;
+    height: 33%;
+    justify-content: center;
+    align-items:center;
+} 
+
+#clock{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'UhBeeHYUNJUNG';
+    color: wheat;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+    font-size: 13ch;
+    z-index: 1; 
+}
+
+#weather-div{
+    display: flex;
+    vertical-align:middle;
+    height: 33%;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+} 
+
+.table-div{
+    font-family: 'KNPSKkomi-Regular00';
+    font-size: large;
+    color: aliceblue;
+    text-shadow: -1px 0 teal, 0 1px teal, 1px 0 teal, 0 -1px teal;
+}
+
+#weather-info{
+    font-family: 'Bohyun';
+    font-size: xx-large;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-shadow: -1px 0 olivedrab, 0 1px olivedrab, 1px 0 olivedrab, 0 -1px olivedrab;
+}
+
+
+
+
+
+
+
+.right-div{
+    float: right;
+    width:30%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#write-div{
+    display: flex;
+    height: 30%;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+} 
+
+#todo-info{
+    justify-content: center;
+    font-family: 'Bohyun';
+    font-size: xx-large;
+    padding-bottom: 10px;
+    color: aliceblue;
+    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
+
+#todoInput{
+    width: 300px;
+    height: 20px;
+    border-radius: 0.25rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    font-family: 'ONE-Mobile-POP';
+    color: white;
+    font-size: medium;
+    z-index: 1; 
+}
+
+#todoInput::placeholder {
+    color: linen;
+    font-size: medium;
+    font-family: 'ONE-Mobile-POP';
+}
+
+.todoInput * {
+    font-family: 'ONE-Mobile-POP';
+  }
+
+#list-div{
+    font-family: 'Pretty_Left_handed';
+    color: aliceblue;
+    text-shadow: -1px 0 tomato, 0 1px tomato, 1px 0 tomato, 0 -1px tomato;
+    font-size: x-large;
+    display: flex;
+    height: 35%;
+    flex-direction: column;
+    align-items:center;
+} 
+
+#complete-div{
+    font-family: 'Pretty_Left_handed';
+    color: aliceblue;
+    text-shadow: -1px 0 tomato, 0 1px tomato, 1px 0 tomato, 0 -1px tomato;
+    font-size: x-large;
+    display: flex;
+    height: 35%;
+    flex-direction: column;
+    align-items:center;
+} 
+
+button{
+    cursor: pointer;
+}
