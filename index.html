@@ -3,63 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/background.css" />
     <title>Chaewon-VanillaJS</title>
   </head>
   <body>
-    <div class="parent">
-      <div class="left-div">
-        <div id="intro-div"><p id="text-p">Enjoy SF Movies</p></div>
-        <div id="poster-div"></div>
-        <div id="title-div"></div>
-        <div id="director-div"></div>
-        <div id="actors-div"></div>
-        <div id="discription-div"></div>
-      </div>
-
-      <div class="middle-div">
-        <div id="greeting-div">
-          <h5 class="greeting" id="greeting"></h5>
-        </div>
-        <div id="clock-div">
-          <h2 id="clock">00:00:00</h2>
-        </div>
-        <div id="weather-div">
-          <div id="weather-info">* 현재 날씨를 알려드립니다 *</div>
-          <span class="table-div" id="city-span"></span>
-          <span class="table-div" id="weather-span"></span>
-        </div>
-      </div>
-
-      <div class="right-div">
-        <div id="write-div">
-          <div id="todo-info">* 오늘 할 일을 적어보세요 *</div>
-          <div id="todo-input">
-            <form id="todo-form">
-              <input type="text" required id="todoInput" style="font-family: 'UhBeeHYUNJUNG'"/>
-            </form>
-            
-          </div>
-        </div>
-        <div id="list-div">
-          <div id="todo-info">해야할 목록</div>
-          <ul id="todo-list"></ul>
-        </div>
-
-        <div id="complete-div">
-          <div id="todo-info">완료한 목록</div>
-          <ul id="com-list"></ul>
-        </div>
-
-      </div>
+    <div id="login-div">
+      <form id="login-form">
+        <input required maxlength="15" type="text" placeholder="메인화면으로 들어가기 위해 당신의 이름을 입력해주세요!" id="loginInput" />
+        <input type="submit" value="Log In" class="btn btn-primary" />
+      </form>
     </div>
-
-    <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/movies.js"></script>
-    <script src="js/background.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
+    
+    <script src="js/login.js"></script>
   </body>
 </html>
