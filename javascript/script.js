@@ -20,7 +20,7 @@ document.querySelector('.badge').addEventListener('click', function () {
 
 
 document.querySelector('.navbar-toggler').addEventListener('click', function () {
-    document.querySelector('.list-group').classList.toggle('show-modal');
+    document.querySelector('.list-group').classList.toggle('show');
 })
 
 document.querySelector('#login').addEventListener('click', function () {
