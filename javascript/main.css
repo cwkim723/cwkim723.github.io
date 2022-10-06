@@ -38,8 +38,7 @@
 }
 
 .show-modal {
-    visibility: visible;
-    opacity: 1;
+    display: block;
 }
 
 .main-bg {
@@ -84,3 +83,4 @@
 .btn-area {
     margin: 0 auto;
 }
+

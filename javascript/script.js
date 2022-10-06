@@ -8,6 +8,7 @@ document.querySelector('.badge').addEventListener('click', function () {
     document.querySelector('.navbar').classList.toggle('navbar-dark')
     document.querySelector('.navbar').classList.toggle('bg-dark')
     document.querySelector('html').classList.toggle('dark')
+    document.querySelector('.btn-div').classList.toggle('dark')
 
     if (count % 2 === 1) {
         this.innerHTML = 'Light 🔄'
