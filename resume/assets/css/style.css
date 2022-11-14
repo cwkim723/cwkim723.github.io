@@ -32,6 +32,15 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.portfolio-info h5 {
+  font-size: 16px;
+  background: #eef0f2;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1379,3 +1388,4 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
