@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BuyUrHealth Details</title>
+  <title>Decakill Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -79,11 +79,11 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>BuyUrHealth</h2>
+          <h2>Decakill</h2>
           <ol>
             <li><a href="../index.html#hero">Home</a></li>
             <li><a href="../index.html#portfolio">Portfolio</a></li>
-            <li>BuyUrHealth</li>
+            <li>Decakill</li>
           </ol>
         </div>
 
@@ -101,15 +101,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/buh-detail1.png" alt="">
+                  <img src="../assets/img/portfolio/decakill/decakill-detail1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/buh-detail2.png" alt="">
+                  <img src="../assets/img/portfolio/decakill/decakill-detail2.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/buh-detail3.png" alt="">
+                  <img src="../assets/img/portfolio/decakill/decakill-detail3.png" alt="">
                 </div>
 
               </div>
@@ -119,15 +119,22 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>BuyUrHealth information</h3>
+              <h3>Decakill information</h3>
               <ul>
-                <li><strong>개발일정</strong>: <h5>2021.03 ~ 2021.05</h5>
+                <li><strong>개발일정</strong>: <h5>2022.04 ~ 2022.10</h5>
                 </li>
-                <li><strong>한줄소개</strong>: '당신의 건강을 사세요'라는 의미로 영양제 판매 사이트의 정체성을 나타냄</li>
-                <li><strong>개발배경</strong>: 코로나로 인해 사람들이 건강과 영양제에 대한 관심이 높아짐
-                  → 사람들의 영양제에 대한 관심이 늘고 있지만 성능과 필요성을 정확히 알지 못해 복용이 어려워하는 경우가 많음</li>
-                <li><strong>구현목적</strong>: 영양제의 성능과 필요성을 정확히 알지 못해 복용이 어려운 이들에게 기능/부위별 영양제 안내와 추천기능을 제공하여 구매에 도움을 주기 위해
-                  제작</li>
+                <li><strong>한줄소개</strong>: 스트리머 플레이 예측을 통해 사람들과 경쟁하고 보상을 받아갈 수 있는 트위치 익스텐션(데카킬)의 웹페이지</li>
+                <li><strong>URL</strong>: <a href="https://decakill.com">https://decakill.com</a></li>
+                <li style="color: red;"><strong>특이사항</strong>: 서버 종료</li>
+                <li>
+                  <strong>역할 및 기능개발</strong>:
+                  <ul style="list-style-type:disc; list-style-position: inside;">
+                    <li>데카킬 웹 페이지 백엔드 담당</li>
+                    <li>Kotlin, Spring Boot(Gradle), JPA, QueryDSL, MongoDB, Redis, MySQL</li>
+                    <li>트위치 로그인, gmail(smtp)이용 메일 발송(+이미지 발송 가능), 스토어(응모, 구매), 랭킹(스트리머, 이스포츠(현재 hide)랭킹, 데일리랭킹) 등 구현
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
             <!-- <div class="portfolio-description">
@@ -140,7 +147,7 @@
 
           <div class="col-lg-12">
             <div class="portfolio-description">
-              <h2>BuyUrHealth 플로우</h2>
+              <h2>Decakill 플로우</h2>
               <!-- <p>
                 Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
               </p> -->
@@ -148,331 +155,186 @@
               <div class="portfolio-details portfolio-info">
                 <h5>플로우 목록</h5>
                 <ul>
-                  <li><a href="#cart">장바구니 & 결제</a></li>
-                  <li><a href="#userQNA">사용자 Q&A</a></li>
-                  <li><a href="#adminQNA">관리자 Q&A</a></li>
+                  <li><a href="#main">메인 페이지</a></li>
+                  <li><a href="#ranking">랭킹</a></li>
+                  <li><a href="#login">로그인</a></li>
                 </ul>
               </div>
 
-              <!-- 장바구니 & 결제 -->
+              <!-- 메인 페이지 -->
               <div class="portfolio-details portfolio-info">
-                <h3 id="cart">장바구니 & 결제</h3>
+                <h3 id="main">메인 페이지</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>장바구니 - 비어있을 때</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow1.png" alt=""
+                  <h5>메인</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow2.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>비어 있을 때 '장바구니에 담긴 상품이 없습니다.'라는 문구가 뜬다. 기본적으로 배송비 2,500원이 뜬다.</li>
-                      <li>발송 예상일은 자동으로 날짜가 뜨도록 하였다.</li>
-                      <li>주문서 작성하기를 누르면 주문서로 이동한다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>장바구니 - 제품이 담겼을 때</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow2.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>제품을 담은 경우 이미지와 상품명, 가격 등이 뜬다. 수량을 변경하고 제품을 장바구니에서 삭제할 수 있다.</li>
-                      <li>원하는 수량을 변경하고 변경버튼을 누르면 수량이 변경되고 합계가 자동으로 바뀐다.</li>
-                      <li>총 결제금액은 장바구니에 담긴 합계와 배송비가 포함된 가격이다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>주문서 작성 페이지</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow3.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>장바구니에서 담은 상품이 그대로 떠 자신이 주문할 상품을 한 번 더 확인할 수 있도록 한다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>주문서 작성하기</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow4.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>값을 입력했을 때</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>결제</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow5.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>값을 입력하고 결제하기 버튼을 누른 경우 API가 뜬다. API는 아임포트를 이용하여 구현하였고 카카오페이, 네이버페이, 신용카드 등의 결제 시스템을 이용할 수 있다.
-                      </li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>결제</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow6.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>결제 API를 통해 결제를 완료하면 결제 완료 안내창이 뜨면서 자신이 입력한 값들이 뜬다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>결제 완료</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow7.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>위의 결제 완료 안내창에서 확인을 누르면 주문 완료 페이지로 이동한다.</li>
+                      <li>데카킬과 파트너쉽을 맺은 스트리머가 생방송 중일 경우 On Air 표시</li>
                     </ui>
                   </div>
                 </div>
               </div>
 
-              <!-- 사용자 Q&A -->
+              <!-- 랭킹 -->
               <div class="portfolio-details portfolio-info">
-                <h3 id="userQNA">사용자 Q&A</h3>
+                <h3 id="ranking">랭킹</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 목록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow8.png" alt=""
+                  <h5>전체 랭킹</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow3.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>자신이 기존에 작성했던 글이 뜬다.</li>
-                      <li>다른 사람의 작성 글은 볼 수 없고 오로지 자신의 글만 볼 수 있도록 설정하였다.</li>
-                      <li>만약 예전에 작성했던 글이 없다면 작성된 글이 없다는 문구가 뜬다.</li>
+                      <li>전체 랭킹은 여태까지 데카킬 캠페인 데이터를 총 합산한 결과를 나타냄</li>
+                      <li>100위까지 나타냄</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 작성</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow9.png" alt=""
+                  <h5>랭킹 검색</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow4.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>사용자가 Q&A를 작성할 때 볼 수 있는 화면이다.</li>
-                      <li>분류를 선택할 수 있고 제목과 내용을 입력후 등록버튼을 누르면 등록이 된다. </li>
-                      <li>첨부파일을 넣을 수 있는데 첨부파일이 없을 경우 미리보기란은 비활성화되고 첨부파일이 있는 경우에만 미리보기란이 활성화되어 첨부한 사진을 확인할 수 있다.</li>
+                      <li>닉네임을 입력하면 데이터가 존재할 경우 검색된 데이터가 나타난다.</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 등록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow10.png" alt=""
+                  <h5>데일리 랭킹</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow5.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow6.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>분류를 선택할 수 있고 제목과 내용을 입력후 등록버튼을 누르면 등록이 된다.</li>
-                      <li>첨부파일을 넣을 수 있는데 첨부파일이 없을 경우 미리보기란은 비활성화되고 첨부파일이 있는 경우에만 미리보기란이 활성화되어 첨부한 사진을 확인할 수 있다.</li>
+                      <li>데일리 랭킹은 당일 게임의 랭킹이 제공됨(스트리머 별)</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 로그인 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="login">로그인</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>트위치 로그인</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow7.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow8.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow9.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>로그인은 트위치 로그인만 제공</li>
+                      <li>계정을 입력하고 권한 동의를 하면 로그인이 완료된다.</li>
+                      <li>회원이 아닌 경우에는 회원가입 권한동의 창으로 이동</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 스토어 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="login">스토어</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 비로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
+                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 목록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow11.png" alt=""
+                  <h5>스토어 목록 - 로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>사용자가 글을 등록하면 입력한 글이 목록화면에 뜬다.</li>
-                      <li>아직 답변이 달리지 않은 글의 경우 기본적으로 답변대기 상태가 되고, 만약 관리자가 답변을 등록한다면 답변완료 상태로 변경된다.</li>
+                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 마이페이지 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="login">마이페이지</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>나의 데이터</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow12.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>젬(포인트) 정보와 데카킬에 참여한 기록을 보여 줌</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 상세보기</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow12.png" alt=""
+                  <h5>획득 내역</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow13.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>목록화면에서 글을 클릭하면 글 내용을 볼 수 있다.</li>
-                      <li>이 페이지에서 삭제와 수정이 가능하다.</li>
+                      <li>젬(포인트)을 어떤 스트리머의 방송에서 획득했는지를 나타냄</li>
+                      <li>스토어에서 상품 환불 시의 내역도 나타냄</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 첨부파일 확인</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow13.png" alt=""
+                  <h5>사용 내역</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow14.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>위의 상세보기 페이지에서 첨부파일을 누르면 새 창으로 첨부파일 이미지를 확인할 수 있다.</li>
+                      <li>젬(포인트)을 사용했을 경우 (스토어에서 상품 구매 / 응모한 경우) 기록을 보여 줌</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 수정</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow14.png" alt=""
+                  <h5>나의 정보</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow15.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow16.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow17.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>상세보기 페이지에서 수정버튼을 누를 경우 수정페이지로 이동한다. 분류와 제목, 내용 등을 수정할 수 있고 등록 버튼을 누르면 글이 수정된다.</li>
-                      <li>분류와 제목, 내용 등을 수정할 수 있고 등록 버튼을 누르면 글이 수정된다.</li>
+                      <li>이메일 인증 및 개인 정보 입력 페이지</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 상세보기</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow15.png" alt=""
+                  <h5>1:1 문의</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow18.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>글이 수정된 모습을 확인할 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 삭제</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow16.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>삭제할 게시물이 등록되어 있는 상태이다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 삭제</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow17.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>글을 클릭한 후 삭제를 누르면 삭제하시겠습니까? 알림창이 뜨고 확인을 누르면 글이 삭제된다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 삭제</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow18.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>글이 삭제된 모습을 확인할 수 있다.</li>
+                      <li>1:1 문의를 할 수 있는 페이지</li>
                     </ui>
                   </div>
                 </div>
 
               </div>
 
-              <!-- 관리자 Q&A -->
-              <div class="portfolio-details portfolio-info">
-                <h3 id="adminQNA">관리자 Q&A</h3>
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 목록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow19.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>사용자의 경우와는 다르게 관리자는 모든 회원의 글을 한 눈에 볼 수 있다.</li>
-                      <li>작성자의 이름과 아이디, 작성일, 글제목과 답변상태를 볼 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
 
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 상세보기</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow20.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>글을 클릭하면 사용자가 문의한 글을 볼 수 있고 답변등록을 누르면 답변등록 페이지로 이동한다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 답변등록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow21.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                    <img src="../assets/img/portfolio/details/buh-flow22.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>답변등록 버튼을 누르면 이동하는 답변등록 페이지이다.</li>
-                      <li>상단에 사용자가 입력한 글이 뜨고 하단에 답변을 등록할 수 있는 공간이 생긴다. 답변을 작성하고 등록버튼을 누르면 답변이 등록된다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 답변 확인</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow23.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>답변이 등록된 모습을 확인할 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 답변 수정</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow24.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>수정 버튼을 누르면 답변 수정 페이지로 이동한다. 답변을 수정하고 답변등록 버튼을 누르면 답변이 수정된다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 답변 수정 확인</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow25.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>답변이 수정된 모습을 확인할 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[관리자] Q&A 목록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow26.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>답변이 등록되어 기존의 답변대기로 되어 있었던 도대담의 글이 답변완료로 변경된 것을 확인할 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>[사용자] Q&A 목록</h5><br>
-                  <img src="../assets/img/portfolio/details/buh-flow27.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>답변이 등록되어 상태가 답변대기에서 답변등록으로 변경된 모습을 확인할 수 있다.</li>
-                    </ui>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-      </div>
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
