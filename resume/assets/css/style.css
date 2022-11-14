@@ -620,7 +620,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/채원.jpeg") center center no-repeat;
+  background: url("../img/me.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -685,7 +685,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffb727;
+  color: green;
   margin-bottom: 10px;
 }
 
