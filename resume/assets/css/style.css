@@ -106,12 +106,12 @@ em {
 }
 
 .hashtag {
-  font-family: 'GmarketSansMedium';
-  font-size: 10px;
-  color: black;
-  border-radius: 40px 40px;
-  background-color: #ffffff;
-  background-color: rgba( 255, 255, 255, 0.5 );
+  font-family: 'GmarketSansMedium' !important;
+  font-size: 10px !important;
+  color: black !important;
+  border-radius: 40px 40px !important;
+  background-color: #ffffff !important;
+  background-color: rgba( 255, 255, 255, 0.5 ) !important;
 }
 
 /*--------------------------------------------------------------
