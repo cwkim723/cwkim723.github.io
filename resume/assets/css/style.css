@@ -9,6 +9,8 @@
 # General
 --------------------------------------------------------------*/
 
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
 @font-face {
   font-family: 'Pretendard-Regular';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -17,24 +19,14 @@
 }
 
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
+  font-family: 'Pretendard-Black';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+  font-weight: 900;
 }
 
 @font-face {
-  font-family: 'RIDIBatang';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'KHNPHU';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KHNPHU.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
 }
 
 @font-face {
@@ -45,19 +37,12 @@
 }
 
 @font-face {
-  font-family: 'NanumBarunGothic';
-  font-style: normal;
-  font-weight: 400;
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
-  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'GmarketSansMedium';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
 
 
 body {
@@ -66,8 +51,11 @@ body {
 }
 
 a {
-  color: #ffb727;
+  font-family: 'GmarketSansMedium' !important;
   text-decoration: none;
+  font-style: italic;
+  font-size: 14px;
+  color: grey;
 }
 
 a:hover {
@@ -89,15 +77,23 @@ p, li, a {
 }
 
 p span{
-  font-family: 'GongGothicMedium';
+  font-family: 'Pretendard-Black';
 }
 
 h4 span{
-  font-family: 'GongGothicMedium';
+  font-family: 'Pretendard-Black';
+}
+
+h3 span{
+  font-family: 'Pretendard-Black';
 }
 
 li span{
-  font-family: 'GongGothicMedium';
+  font-family: 'Pretendard-Black';
+}
+
+em {
+  font-family: 'GmarketSansMedium';
 }
 
 .portfolio-info h5 {
@@ -736,15 +732,34 @@ section {
 # My Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
+  font-family: 'Pretendard-Black';
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #3b434a;
+  color: #487ca5;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Pretendard-Bold';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff8b26;
+}
+
+.project-date {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  color: #f5c195;
+  margin-bottom: 20px;
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 40px 30px;
   margin-top: -2px;
   border-left: 2px solid #82909c;
   position: relative;

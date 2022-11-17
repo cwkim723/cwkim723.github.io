@@ -269,18 +269,44 @@
                   </div>
                 </div>
 
+                
+
                 <div class="portfolio-details portfolio-info">
-                  <h5>8. 결제완료 시 카카오 알림톡 발송</h5><br>
+                  <h5>8. 카카오 알림톡 발송</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow8.jpeg" alt=""
+                    style="width: 30%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/logifit/logifit-flow9.jpeg" alt=""
+                    style="width: 30%; height: 80%; border: 1px solid black;">
+                    <img src="../assets/img/portfolio/logifit/logifit-flow10.jpeg" alt=""
                     style="width: 30%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>결제완료 시 카카오 알림톡이 발송된다.</li>
+                      <li>각각 결제완료 시, 배차완료 시,결제취소 시 카카오 알림톡이 발송된다.</li>
+                      <li>카카오 알림톡 발송은 비즈뿌리오(<a href="https://www.bizppurio.com/">https://www.bizppurio.com/</a>와 연동하였다.)</li>
                     </ui>
                   </div>
-                </div>
 
-                <div class="portfolio-details portfolio-info">
+                  <br><br>
+
+                  
+                  <!-- <div class="portfolio-description">
+                    <ui>
+                      <li>배차완료 시 카카오 알림톡 발송된다.</li>
+                      <li>운송인의 이름, 전화번호, 차량번호 정보가 나타난다.</li>
+                    </ui>
+                  </div>
+
+                  <br><br>
+
+                  
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>결제취소 시 카카오 알림톡 발송된다.</li>
+                    </ui>
+                  </div>
+                </div> -->
+
+                <!-- <div class="portfolio-details portfolio-info">
                   <h5>9. 배차완료 시 카카오 알림톡 발송</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow9.jpeg" alt=""
                     style="width: 30%; height: 80%; border: 1px solid black;">
@@ -301,25 +327,28 @@
                       <li>결제취소 시 카카오 알림톡 발송된다.</li>
                     </ui>
                   </div>
-                </div>
+                </div> -->
 
               </div>
 
-              <!-- 회원가입 -->
+              <!-- 회원가입과 로그인 -->
               <div class="portfolio-details portfolio-info">
-                <h3 id="register">회원가입</h3>
+                <h3 id="register">회원가입과 로그인</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>회원가입 메인</h5><br>
+                  <h5>회원가입과 로그인</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow11.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                    <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
                       <li>소셜 회원가입은 네이버, 카카오, 애플을 지원하고 기본적으로 이메일로 가입하는 기능을 제공한다.</li>
+                      <li>해당 기능은 Spring Security와 OAuth2를 통해 구현하였다.</li>
                     </ui>
                   </div>
                 </div>
 
-                <div class="portfolio-details portfolio-info">
+                <!-- <div class="portfolio-details portfolio-info">
                   <h5>기업회원인 경우</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow12.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
@@ -341,11 +370,11 @@
                       <li>약관 동의 여부를 선택하고 회원가입을 완료한다.</li>
                     </ui>
                   </div>
-                </div>
+                </div> -->
               </div>
 
               <!-- 로그인 -->
-              <div class="portfolio-details portfolio-info">
+              <!-- <div class="portfolio-details portfolio-info">
                 <h3 id="login">로그인</h3>
                 <div class="portfolio-details portfolio-info">
                   <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
@@ -356,7 +385,7 @@
                     </ui>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
               <!-- 아이디 찾기 -->
               <!-- <div class="portfolio-details portfolio-info">
@@ -410,59 +439,34 @@
                 </div>
               </div> -->
 
-              <!-- 공지사항 -->
+              <!-- 게시판 -->
               <div class="portfolio-details portfolio-info">
                 <h3 id="notice">공지사항</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 비로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
+                  <h5>공지사항</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-notice1.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
-                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
+                      <li>공지사항은 검색을 할 수 있는 기능이 존재한다.(자체적으로 검색을 구현하였다.)</li>
+                      <li>각 카테고리를 누르면 그 카테고리에 등록된 공지사항이 뜬다.</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
+                  <h5>커뮤니티</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-community1.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                      <li>커뮤니티는 크게 </li>
                     </ui>
                   </div>
                 </div>
               </div>
 
               <!-- 커뮤니티 -->
-              <div class="portfolio-details portfolio-info">
-                <h3 id="community">커뮤니티</h3>
-                <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 비로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
-                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>로그인 시 본인의 젬 정보가 나타남</li>
-                    </ui>
-                  </div>
-                </div>
-              </div>
 
               <!-- 고객센터 -->
               <div class="portfolio-details portfolio-info">
