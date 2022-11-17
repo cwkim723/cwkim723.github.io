@@ -128,20 +128,15 @@
                 <li>
                   <strong>역할 및 기능개발</strong>:
                   <ul style="list-style-type:disc; list-style-position: inside;">
-                    <li>로지핏 웹 페이지 백엔드 담당</li>
-                    <li>Java, Spring Boot(Gradle), MyBatis, MySQL, Thymeleaf(관리자), AWS EC2, Putty</li>
-                    <li>결제(payple), 카카오 알림톡 연동(bizppurio), SMS 인증문자(toast), 소셜 로그인(네이버, 카카오, 애플) 연동 등  구현
-                    </li>
+                    <li>로지핏 프로젝트 백엔드 단독 담당</li>
+                    <li>페이플(Payple) 결제 모듈 연동을 통해 결제 시스템 구현</li>
+                    <li>비즈뿌리오(bizppurio)를 통한 카카오 알림톡 연동을 통해 운송 접수, 배차 완료, 결제 취소 등을 안내</li>
+                    <li>NHN Cloud의 SMS 인증문자 서비스를 통해 회원가입이나 아이디/비밀번호 찾기 시 인증문자 발송</li>
+                    <li>OAuth2를 통한 소셜 로그인(네이버, 카카오, 애플) 연동을 통해 보다 쉬운 회원가입, 로그인 서비스 제공</li>
                   </ul>
                 </li>
               </ul>
             </div>
-            <!-- <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div> -->
           </div>
 
           <div class="col-lg-12">
@@ -155,11 +150,8 @@
                 <h5>기능 목록</h5>
                 <ul>
                   <li><a href="#order">운송 신청 접수 및 결제</a></li>
-                  <li><a href="#register">회원가입</a></li>
-                  <li><a href="#login">로그인</a></li>
-                  <li><a href="#notice">공지사항</a></li>
-                  <li><a href="#community">커뮤니티</a></li>
-                  <li><a href="#service">고객센터</a></li>
+                  <li><a href="#register">회원가입과 로그인</a></li>
+                  <li><a href="#board">게시판</a></li>
                   <li><a href="#my-page">마이페이지</a></li>
                 </ul>
               </div>
@@ -441,7 +433,7 @@
 
               <!-- 게시판 -->
               <div class="portfolio-details portfolio-info">
-                <h3 id="notice">공지사항</h3>
+                <h3 id="board">게시판</h3>
                 <div class="portfolio-details portfolio-info">
                   <h5>공지사항</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow-notice1.png" alt=""
@@ -460,36 +452,8 @@
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>커뮤니티는 크게 </li>
-                    </ui>
-                  </div>
-                </div>
-              </div>
-
-              <!-- 커뮤니티 -->
-
-              <!-- 고객센터 -->
-              <div class="portfolio-details portfolio-info">
-                <h3 id="service">고객센터</h3>
-                <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 비로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
-                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
-                    </ui>
-                  </div>
-                </div>
-
-                <div class="portfolio-details portfolio-info">
-                  <h5>스토어 목록 - 로그인 시</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                      <li>커뮤니티는 크게 트럭 거래, 번호판 거래, 기사님 구인구직 세 가지로 나뉜다.</li>
+                      <li>필터를 선택하거나 검색어를 입력하면 조건에 맞는 글이 검색되도록 구현했다. (각 필터는 필수사항이 아님, 검색어 + 필터 입력 시 동시 적용)</li>
                     </ui>
                   </div>
                 </div>
@@ -499,64 +463,48 @@
               <div class="portfolio-details portfolio-info">
                 <h3 id="my-page">마이페이지</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>나의 데이터</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow12.png" alt=""
+                  <h5>운송내역</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-mypage1.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>젬(포인트) 정보와 데카킬에 참여한 기록을 보여 줌</li>
+                      <li>각 상태에 따른 운송내역을 찾아볼 수 있고, 전체 내역을 확인할 수 있다.</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>획득 내역</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow13.png" alt=""
+                  <h5>증빙자료 보관함</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-mypage2.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>젬(포인트)을 어떤 스트리머의 방송에서 획득했는지를 나타냄</li>
-                      <li>스토어에서 상품 환불 시의 내역도 나타냄</li>
+                      <li>날짜를 선택하고 조회하면 해당 기간 동안의 운송내역을 확인할 수 있다</li>
+                      <li>거래 명세서 발급 버튼을 누르면 거래내역에 따른 거래 명세서를 발급할 수 있다. (거래 명세서는 엑셀 파일로 추출 가능)</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
                   <h5>사용 내역</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow14.png" alt=""
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-mypage3.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>젬(포인트)을 사용했을 경우 (스토어에서 상품 구매 / 응모한 경우) 기록을 보여 줌</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
                   <h5>나의 정보</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow15.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <img src="../assets/img/portfolio/decakill/decakill-flow16.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <img src="../assets/img/portfolio/decakill/decakill-flow17.png" alt=""
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-mypage4.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      <li>이메일 인증 및 개인 정보 입력 페이지</li>
                     </ui>
                   </div>
                 </div>
 
-                <div class="portfolio-details portfolio-info">
-                  <h5>1:1 문의</h5><br>
-                  <img src="../assets/img/portfolio/decakill/decakill-flow18.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                  <div class="portfolio-description">
-                    <ui>
-                      <li>1:1 문의를 할 수 있는 페이지</li>
-                    </ui>
-                  </div>
-                </div>
 
               </div>
 
