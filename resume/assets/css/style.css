@@ -54,7 +54,7 @@ a {
   font-family: 'GmarketSansMedium' !important;
   text-decoration: none;
   font-style: italic;
-  font-size: 13px;
+  font-size: 13px !important;
   color: grey;
 }
 
