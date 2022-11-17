@@ -14,7 +14,9 @@
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -77,11 +79,11 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2>Logifit</h2>
           <ol>
             <li><a href="../index.html#hero">Home</a></li>
             <li><a href="../index.html#portfolio">Portfolio</a></li>
-            <li>Portfolio Details</li>
+            <li>Logifit</li>
           </ol>
         </div>
 
@@ -99,15 +101,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="../assets/img/portfolio/logifit/logifit-detail1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="../assets/img/portfolio/logifit/logifit-detail2.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="../assets/img/portfolio/logifit/logifit-detail3.png" alt="">
                 </div>
 
               </div>
@@ -117,25 +119,447 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>Logifit information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>개발일정</strong>: <h5>2021. 11 ~ 2022. 01</h5>
+                </li>
+                <li><strong>한줄소개</strong>: 5초 안에 간편하게 배차 가능한, 기업을 위한 운송 서비스</li>
+                <li><strong>URL</strong>: <a href="https://logifit.co.kr/">https://logifit.co.kr/</a></li>
+                <li>
+                  <strong>역할 및 기능개발</strong>:
+                  <ul style="list-style-type:disc; list-style-position: inside;">
+                    <li>로지핏 웹 페이지 백엔드 담당</li>
+                    <li>Java, Spring Boot(Gradle), MyBatis, MySQL, Thymeleaf(관리자), AWS EC2, Putty</li>
+                    <li>결제(payple), 카카오 알림톡 연동(bizppurio), SMS 인증문자(toast), 소셜 로그인(네이버, 카카오, 애플) 연동 등  구현
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </div>
-            <div class="portfolio-description">
+            <!-- <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
                 Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
               </p>
-            </div>
+            </div> -->
           </div>
 
-        </div>
+          <div class="col-lg-12">
+            <div class="portfolio-description">
+              <h2>Logifit 플로우</h2>
+              <!-- <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              </p> -->
 
-      </div>
+              <div class="portfolio-details portfolio-info">
+                <h5>기능 목록</h5>
+                <ul>
+                  <li><a href="#order">운송 신청 접수 및 결제</a></li>
+                  <li><a href="#register">회원가입</a></li>
+                  <li><a href="#login">로그인</a></li>
+                  <li><a href="#notice">공지사항</a></li>
+                  <li><a href="#community">커뮤니티</a></li>
+                  <li><a href="#service">고객센터</a></li>
+                  <li><a href="#my-page">마이페이지</a></li>
+                </ul>
+              </div>
+
+              <!-- 운송 신청 접수 및 결제 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="order">운송 신청 접수 및 결제</h3>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>1. 운송지 선택하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>화물을 운송하기 위해 출발지와 도착지를 선택한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>2. 운송차량 선택하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>어떤 차량으로 운송을 할지 선택한다</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>2-1. 차량 추천받기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow2-2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>만약 어떤 차량을 선택할지 감이 안 올 경우를 위해 차량 추천 서비스를 제공하고 있다. 적재할 화물의 정보를 입력한 후 추천 받기 버튼을 누른다.</li>
+                    </ui>
+                  </div>
+
+                  <br><br><br>
+
+                  <img src="../assets/img/portfolio/logifit/logifit-flow2-3.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>적합한 차량을 추천받을 수 있다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>3. 상하차 방법 선택하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow3.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>상차 방법, 하차 방법을 각각 선택한다. 각 선택지에 대한 설명은 아래에 기재되어 있다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>4. 화물정보 입력하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow4.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>어떤 화물을 운송할지 화물에 대한 정보를 기록한다. 화물 분류를 우선 선택한 후 화물에 대한 상세 정보를 기록한다. 특이사항이 있을 경우 특이사항도 기록한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>5. 운송시간 선택하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow5.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>희망하는 운송 시간을 설정한다. 운송 시간은 주문 접수 후 30분 이후부터 가능하다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>6. 최종 접수하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow6.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>화물 운송에 대해 입력한 정보를 확인한 후 쿠폰이 있을 경우 쿠폰 사용, 포인트가 있을 경우 포인트를 사용하고 합짐 적용 여부를 선택한 후 예상 결제 금액을 선택한 후 결제 수단을 선택한다.</li>
+                      <li>결제 수단으로는 카드 결제, 외상, 현금 선불, 현금 후불이 있다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>7. 결제하기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow7.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>카드 결제를 선택한 화면이다.</li>
+                      <li>PG사는 페이플을 사용하였다.</li>
+                      <li>카드 정보를 입력하고 결제를 완료한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>8. 결제완료 시 카카오 알림톡 발송</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow8.jpeg" alt=""
+                    style="width: 30%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>결제완료 시 카카오 알림톡이 발송된다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>9. 배차완료 시 카카오 알림톡 발송</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow9.jpeg" alt=""
+                    style="width: 30%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>배차완료 시 카카오 알림톡 발송된다.</li>
+                      <li>운송인의 이름, 전화번호, 차량번호 정보가 나타난다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>10. 결제취소 시 카카오 알림톡 발송</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow10.jpeg" alt=""
+                    style="width: 30%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>결제취소 시 카카오 알림톡 발송된다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- 회원가입 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="register">회원가입</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>회원가입 메인</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow11.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>소셜 회원가입은 네이버, 카카오, 애플을 지원하고 기본적으로 이메일로 가입하는 기능을 제공한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>기업회원인 경우</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow12.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>기업회원인 경우 휴대폰, 사업자 정보, 세금계산서 발급 전용 이메일 정보가 필요하다.</li>
+                      <li>약관 동의 여부를 선택하고 회원가입을 완료한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>일반회원인 경우</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow13.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>일반회원인 경우 휴대폰 정보가 필요하다.</li>
+                      <li>약관 동의 여부를 선택하고 회원가입을 완료한다.</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 로그인 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="login">로그인</h3>
+                <div class="portfolio-details portfolio-info">
+                  <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>소셜 로그인은 네이버, 카카오, 애플을 지원하고 기본적으로 이메일로 로그인 하는 기능을 제공한다.</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 아이디 찾기 -->
+              <!-- <div class="portfolio-details portfolio-info">
+                <h3 id="login">아이디 찾기</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>핸드폰 번호 입력</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-id1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>아이디 찾기를 위해 휴대폰 번호를 입력한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>인증번호 입력</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-id2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>입력한 휴대폰 번호로 발송된 인증문자를 입력한다.</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>아이디 정보</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-id3.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>해당 휴대폰 번호를 가진 유저의 아이디(이메일)를 보여준다.</li>
+                    </ui>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- 비밀번호 찾기 -->
+              <!-- <div class="portfolio-details portfolio-info">
+                <h3 id="login">비밀번호 찾기</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>비밀번호 찾기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      
+                    </ui>
+                  </div>
+                </div>
+              </div> -->
+
+              <!-- 공지사항 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="notice">공지사항</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 비로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
+                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 커뮤니티 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="community">커뮤니티</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 비로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
+                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 고객센터 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="service">고객센터</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 비로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow10.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>데카킬 예측에 참여한 유저들은 젬이라는 데카킬 포인트를 획득하고 젬을 모아 물품을 구매할 수 있음</li>
+                      <li>구매 혹은 응모를 통해 상품을 구매할 수 있고, 구매가 가능한 경우 구매가능 이라는 표시가 뜸</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>스토어 목록 - 로그인 시</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow11.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>로그인 시 본인의 젬 정보가 나타남</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 마이페이지 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="my-page">마이페이지</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>나의 데이터</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow12.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>젬(포인트) 정보와 데카킬에 참여한 기록을 보여 줌</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>획득 내역</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow13.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>젬(포인트)을 어떤 스트리머의 방송에서 획득했는지를 나타냄</li>
+                      <li>스토어에서 상품 환불 시의 내역도 나타냄</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>사용 내역</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow14.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>젬(포인트)을 사용했을 경우 (스토어에서 상품 구매 / 응모한 경우) 기록을 보여 줌</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>나의 정보</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow15.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow16.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/decakill/decakill-flow17.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>이메일 인증 및 개인 정보 입력 페이지</li>
+                    </ui>
+                  </div>
+                </div>
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>1:1 문의</h5><br>
+                  <img src="../assets/img/portfolio/decakill/decakill-flow18.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>1:1 문의를 할 수 있는 페이지</li>
+                    </ui>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
@@ -165,7 +589,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
