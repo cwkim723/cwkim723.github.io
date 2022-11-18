@@ -130,9 +130,12 @@
                   <ul style="list-style-type:disc; list-style-position: inside;">
                     <li>로지핏 프로젝트 백엔드 단독 담당</li>
                     <li>페이플(Payple) 결제 모듈 연동을 통해 결제 시스템 구현</li>
+                    <li>결제 시 사용할 수 있는 쿠폰, 포인트 기능 구현</li>
                     <li>비즈뿌리오(bizppurio)를 통한 카카오 알림톡 연동을 통해 운송 접수, 배차 완료, 결제 취소 등을 안내</li>
                     <li>NHN Cloud의 SMS 인증문자 서비스를 통해 회원가입이나 아이디/비밀번호 찾기 시 인증문자 발송</li>
                     <li>OAuth2를 통한 소셜 로그인(네이버, 카카오, 애플) 연동을 통해 보다 쉬운 회원가입, 로그인 서비스 제공</li>
+                    <li>운송할 화물을 입력하면 차량을 추천해주는 운송 차량 추천 기능 제공</li>
+                    <li>게시판 검색 기능, 필터 기능 직접 구현</li>
                   </ul>
                 </li>
               </ul>
@@ -150,7 +153,10 @@
                 <h5>기능 목록</h5>
                 <ul>
                   <li><a href="#order">운송 신청 접수 및 결제</a></li>
-                  <li><a href="#register">회원가입과 로그인</a></li>
+                  <li><a href="#register">회원가입</a></li>
+                  <li><a href="#login">로그인</a></li>
+                  <li><a href="#id">아이디 찾기</a></li>
+                  <li><a href="#pwd">비밀번호 찾기</a></li>
                   <li><a href="#board">게시판</a></li>
                   <li><a href="#my-page">마이페이지</a></li>
                 </ul>
@@ -274,7 +280,7 @@
                   <div class="portfolio-description">
                     <ui>
                       <li>각각 결제완료 시, 배차완료 시,결제취소 시 카카오 알림톡이 발송된다.</li>
-                      <li>카카오 알림톡 발송은 비즈뿌리오(<a href="https://www.bizppurio.com/">https://www.bizppurio.com/</a>와 연동하였다.)</li>
+                      <li>카카오 알림톡 발송은 비즈뿌리오(<a href="https://www.bizppurio.com/">https://www.bizppurio.com/</a>)와 연동하였다.</li>
                     </ui>
                   </div>
 
@@ -325,12 +331,10 @@
 
               <!-- 회원가입과 로그인 -->
               <div class="portfolio-details portfolio-info">
-                <h3 id="register">회원가입과 로그인</h3>
+                <h3 id="register">회원가입</h3>
                 <div class="portfolio-details portfolio-info">
-                  <h5>회원가입과 로그인</h5><br>
+                  <h5>회원가입</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow11.png" alt=""
-                    style="width: 100%; height: 80%; border: 1px solid black;">
-                    <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
@@ -340,7 +344,7 @@
                   </div>
                 </div>
 
-                <!-- <div class="portfolio-details portfolio-info">
+                <div class="portfolio-details portfolio-info">
                   <h5>기업회원인 경우</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow12.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
@@ -362,11 +366,11 @@
                       <li>약관 동의 여부를 선택하고 회원가입을 완료한다.</li>
                     </ui>
                   </div>
-                </div> -->
+                </div>
               </div>
 
               <!-- 로그인 -->
-              <!-- <div class="portfolio-details portfolio-info">
+              <div class="portfolio-details portfolio-info">
                 <h3 id="login">로그인</h3>
                 <div class="portfolio-details portfolio-info">
                   <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
@@ -377,11 +381,11 @@
                     </ui>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
               <!-- 아이디 찾기 -->
-              <!-- <div class="portfolio-details portfolio-info">
-                <h3 id="login">아이디 찾기</h3>
+              <div class="portfolio-details portfolio-info">
+                <h3 id="id">아이디 찾기</h3>
                 <div class="portfolio-details portfolio-info">
                   <h5>핸드폰 번호 입력</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow-id1.png" alt=""
@@ -414,22 +418,35 @@
                     </ui>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
               <!-- 비밀번호 찾기 -->
-              <!-- <div class="portfolio-details portfolio-info">
-                <h3 id="login">비밀번호 찾기</h3>
+              <div class="portfolio-details portfolio-info">
+                <h3 id="pwd">비밀번호 찾기</h3>
                 <div class="portfolio-details portfolio-info">
                   <h5>비밀번호 찾기</h5><br>
-                  <img src="../assets/img/portfolio/logifit/logifit-flow14.png" alt=""
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-pwd1.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
-                      
+                      <li>비밀번호를 찾기 위해서는 가입 시 사용한 아이디(이메일)가 필요하다.</li>
                     </ui>
                   </div>
                 </div>
-              </div> -->
+
+                <div class="portfolio-details portfolio-info">
+                  <h5>비밀번호 찾기</h5><br>
+                  <img src="../assets/img/portfolio/logifit/logifit-flow-pwd2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li>인증을 위해 휴대폰 번호를 입력하고 인증을 완료한다.</li>
+                      <li>인증을 완료하고 새롭게 변경할 비밀번호를 입력하고 변경 버튼을 누른다.</li>
+                      <li>휴대폰 인증이 완료되지 않으면 비밀번호 변경이 불가하다.</li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
 
               <!-- 게시판 -->
               <div class="portfolio-details portfolio-info">
@@ -486,21 +503,23 @@
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>사용 내역</h5><br>
+                  <h5>즐겨찾기</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow-mypage3.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
+                      <li>운송을 완료한 후 운송 내역에서 즐겨찾기 버튼을 누르면 저장한 내역에 저장된다.</li>
                     </ui>
                   </div>
                 </div>
 
                 <div class="portfolio-details portfolio-info">
-                  <h5>나의 정보</h5><br>
+                  <h5>계정관리</h5><br>
                   <img src="../assets/img/portfolio/logifit/logifit-flow-mypage4.png" alt=""
                     style="width: 100%; height: 80%; border: 1px solid black;">
                   <div class="portfolio-description">
                     <ui>
+                      <li>계정관리에서는 비밀번호 변경과 휴대폰 번호 변경이 가능하다.</li>
                     </ui>
                   </div>
                 </div>
