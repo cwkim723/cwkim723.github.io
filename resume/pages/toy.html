@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Toy Project Details</title>
+  <title>자바스크립트 챌린지 Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,7 +14,9 @@
   <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,10 +44,11 @@
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto " href="../index.html#hero">Home</a></li>
-        <li><a class="nav-link scrollto" href="../index.html#about">About</a></li>
-        <li><a class="nav-link scrollto" href="../index.html#resume">Resume</a></li>
-        <li><a class="nav-link scrollto" href="../index.html#services">Services</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#about">Information</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#resume">Experience</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#services">Link</a></li>
         <li><a class="nav-link scrollto active" href="../index.html#portfolio">Portfolio</a></li>
+        <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
@@ -63,7 +66,6 @@
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li> -->
-        <li><a class="nav-link scrollto" href="../index.html#contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
@@ -77,11 +79,11 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Portfolio Details</h2>
+          <h2 class="project-detail-title">자바스크립트 챌린지</h2>
           <ol>
             <li><a href="../index.html#hero">Home</a></li>
             <li><a href="../index.html#portfolio">Portfolio</a></li>
-            <li>Portfolio Details</li>
+            <li class="project-detail-index">자바스크립트 챌린지</li>
           </ol>
         </div>
 
@@ -99,16 +101,16 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="../assets/img/portfolio/nomad/nomad-detail1.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="../assets/img/portfolio/nomad/nomad-detail2.png" alt="">
                 </div>
 
-                <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
+                <!-- <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/warp/warp-detail3.png" alt="">
+                </div> -->
 
               </div>
               <div class="swiper-pagination"></div>
@@ -117,25 +119,151 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 class="project-detail-title">자바스크립트 챌린지 information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong class="project-detail-description">개발일정</strong>: <h5>2022.02</h5>
+                </li>
+                <li><strong class="project-detail-description">한줄소개</strong>: 노마드 코더 사이트 내 자바스크립트 챌린지 참여</li>
+                <li>
+                  <strong class="project-detail-description">역할 및 기능개발</strong>:
+                  <ul style="list-style-type:disc; list-style-position: inside;">
+                    <li>로컬 스토리지를 사용하여 닉네임 입력을 통한 로그인 구현</li>
+                    <li>로컬 스토리지를 이용한 Todo List 기능 구현, 해야할 목록과 완료한 목록을 구분함으로써 사용에 편의를 줌</li>
+                    <li>현재 시각을 나타내는 시계 구현</li>
+                    <li>여러 SF 영화 추천이 랜덤으로 나타나도록 구현</li>
+                    <li>날씨 API를 통해 현재 위치를 받아 해당 장소의 날씨를 알려주는 기능 구현</li>
+                    <li>새로고침을 하면 배경이 랜덤으로 나타나도록 구현</li>
+                  </ul>
+                </li>
               </ul>
             </div>
-            <div class="portfolio-description">
+            <!-- <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
                 Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
               </p>
-            </div>
+            </div> -->
           </div>
 
-        </div>
+          <div class="col-lg-12">
+            <div class="portfolio-description">
+              <h2 class="project-detail-title">자바스크립트 챌린지 플로우</h2>
+              <!-- <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              </p> -->
 
-      </div>
+              <div class="portfolio-details portfolio-info">
+                <h5>기능 목록</h5>
+                <ul>
+                  <li><a href="#login">로그인</a></li>
+                  <li><a href="#background">배경화면</a></li>
+                  <li><a href="#movie">영화</a></li>
+                  <li><a href="#todo">투두리스트</a></li>
+                  <li><a href="#weather">날씨</a></li>
+                </ul>
+              </div>
+
+              <!-- 로그인 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="login">로그인</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>로그인 페이지</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-main0.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+                <div class="portfolio-details portfolio-info">
+                  <h5>메인 페이지 접근</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-main1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 배경화면 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="background">배경화면</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>배경화면 랜덤 변경</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-background1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-background2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-background3.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 영화 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="movie"></h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>영화추천 랜덤 변경</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-movie1.png" alt=""
+                    style="width: 33%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-movie2.png" alt=""
+                    style="width: 33%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-movie3.png" alt=""
+                    style="width: 33%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 투두리스트 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="todo">투두리스트</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>투두리스트</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-todo1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-todo2.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <img src="../assets/img/portfolio/nomad/nomad-todo3.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 날씨 -->
+              <div class="portfolio-details portfolio-info">
+                <h3 id="weather">날씨</h3>
+                <div class="portfolio-details portfolio-info">
+                  <h5>날씨 API</h5><br>
+                  <img src="../assets/img/portfolio/nomad/nomad-weather1.png" alt=""
+                    style="width: 100%; height: 80%; border: 1px solid black;">
+                  <div class="portfolio-description">
+                    <ui>
+                      <li></li>
+                    </ui>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- End portfolio-description -->
+          </div> <!-- End col-lg-12 -->
+
+        </div> <!-- End row gy-4 -->
+      </div> <!-- End container -->
     </section><!-- End Portfolio Details Section -->
 
   </main><!-- End #main -->
@@ -165,7 +293,8 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
