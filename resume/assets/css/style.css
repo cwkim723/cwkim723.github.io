@@ -120,6 +120,23 @@ em {
   background-color: rgba( 255, 255, 255, 0.5 ) !important;
 }
 
+.look-detail {
+  font-family: 'GmarketSansMedium' !important;
+  font-size: 10px !important;
+  color: black !important;
+  border-radius: 40px 40px !important;
+  background-color: #ffffff !important;
+  background-color: rgba( 255, 255, 255, 0.5 ) !important;
+}
+
+.look-detail:hover {
+  font-family: 'GmarketSansMedium' !important;
+  font-size: 10px !important;
+  color: #ffffff !important;
+  border-radius: 40px 40px !important;
+  background-color: #ffc107 !important;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
